@@ -1,0 +1,26 @@
+<?xml version="1.0" ?> 
+<sdf version="1.5"> 
+  <model name="challenge_2_model"> 
+    <static>true</static> 
+    <link name="challenge_2_model_link"> 
+      <visual name="challenge_2_model"> 
+        <pose>0 0 0 0 0 0</pose> 
+        <geometry> 
+          <mesh>
+            <uri>model://challenge_2/meshes/2.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh> 
+        </geometry> 
+      </visual> 
+      <collision name="challenge_2_model_collision"> 
+        <pose>0 0 0 0 0 0</pose> 
+        <geometry> 
+          <mesh>
+            <uri>model://challenge_2/meshes/2.dae</uri> 
+            <scale>1 1 1</scale>
+          </mesh> 
+        </geometry> 
+      </collision> 
+    </link> 
+  </model> 
+</sdf>

@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<sdf version="1.4">
+  <world name="default">
+    <!-- A ground plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <!-- A global light source -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://challenge_1</uri>
+      <name>Challenge 1 Model</name>
+    </include>
+    <include>
+      <uri>model://orange</uri>
+      <pose>4.7192 -3.5156 1.55 0 0 0</pose>
+      <name>Orange 1</name>
+    </include>
+    <include>
+      <uri>model://orange</uri>
+      <pose>4.4679 -3.0429 1.45 0 0 0</pose>
+      <name>Orange 2</name>
+    </include>
+    <include>
+      <uri>model://orange</uri>
+      <pose>4.1047 -3.4433 1.35 0 0 0</pose>
+      <name>Orange 3</name>
+    </include>
+    <include>
+      <uri>model://orange</uri>
+      <pose>3.2982 -3.6723 1.15 0 0 0</pose>
+      <name>Orange 4</name>
+    </include>
+    <include>
+      <uri>model://orange</uri>
+      <pose>3.2482 -3.1189 1.25 0 0 0</pose>
+      <name>Orange 5</name>
+    </include>
+    <include>
+      <uri>model://orange</uri>
+      <pose>2.8156 -3.3409 1.05 0 0 0</pose>
+      <name>Orange 6</name>
+    </include>
+    <include>
+      <uri>model://pole</uri>
+      <pose>3.2468 -0.857 1.7 0 0 0</pose>
+      <name>Pole 1</name>
+    </include>
+    <include>
+      <uri>model://date</uri>
+      <pose>3.2468 -0.857 1.7 0 0 0</pose>
+      <name>Date 1</name>
+    </include>
+    <include>
+      <uri>model://pole</uri>
+      <pose>3.2525 -1.7863 1.0 0 0 0</pose>
+      <name>Pole 2</name>
+    </include>
+    <include>
+      <uri>model://date</uri>
+      <pose>3.2525 -1.7863 1.0 0 0 0</pose>
+      <name>Date 2</name>
+    </include>
+    <include>
+      <uri>model://pole</uri>
+      <pose>3.8468 -0.71 1.365 0 0 0</pose>
+      <name>Pole 3</name>
+    </include>
+    <include>
+      <uri>model://date</uri>
+      <pose>3.8468 -0.71 1.365 0 0 0</pose>
+      <name>Date 3</name>
+    </include>
+    <include>
+      <uri>model://pole</uri>
+      <pose>3.85 -2.11 1.7 0 0 0</pose>
+      <name>Pole 4</name>
+    </include>
+    <include>
+      <uri>model://date</uri>
+      <pose>3.85 -2.11 1.7 0 0 0</pose>
+      <name>Date 4</name>
+    </include>
+    <include>
+      <uri>model://pole</uri>
+      <pose>4.45 -0.9412 1.0 0 0 0</pose>
+      <name>Pole 5</name>
+    </include>
+    <include>
+      <uri>model://date</uri>
+      <pose>4.45 -0.9412 1.0 0 0 0</pose>
+      <name>Date 5</name>
+    </include>
+    <include>
+      <uri>model://pole</uri>
+      <pose>4.45 -1.295 1.35 0 0 0</pose>
+      <name>Pole 6</name>
+    </include>
+    <include>
+      <uri>model://date</uri>
+      <pose>4.45 -1.295 1.35 0 0 0</pose>
+      <name>Date 6</name>
+    </include>
+  </world>
+</sdf>

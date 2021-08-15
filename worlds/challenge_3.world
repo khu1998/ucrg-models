@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<sdf version="1.4">
+  <world name="default">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://challenge_3</uri>
+      <name>Challenge 3 Model</name>
+    </include>
+  </world>
+</sdf>
